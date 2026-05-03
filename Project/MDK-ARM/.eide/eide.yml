@@ -88,6 +88,8 @@ targets:
         - ..
         - ../../Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/arm
         - ../../BSP
+        - ../../FreeRTOS/include
+        - ../../FreeRTOS/port/RVDS/ARM_CM3
         - .cmsis/include
         - RTE/_I2C_DEMO
       libList: []
