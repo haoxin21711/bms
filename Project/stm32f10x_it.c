@@ -165,11 +165,11 @@ void SysTick_Handler(void)
   * @}
   */ 
 //int count;
-//void TIM2_IRQHandler(void)   //TIM2ÖÐ¶Ï
+//void TIM2_IRQHandler(void)   //TIM2ï¿½Ð¶ï¿½
 //{   
 //  if( TIM_GetITStatus( TIM2, TIM_IT_Update ) != RESET )	
 //	{
-//	  TIM_ClearITPendingBit(TIM2, TIM_IT_Update);  //Çå³ýTIMx¸üÐÂÖÐ¶Ï±êÖ¾
+//	  TIM_ClearITPendingBit(TIM2, TIM_IT_Update);  //ï¿½ï¿½ï¿½TIMxï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ï±ï¿½Ö¾
 //		 	  count++;
 //      if(count == 10)
 //			  {
